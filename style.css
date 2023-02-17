@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(71, 69, 69, 0.922);
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+}
+@media (max-width:655px){
+    .navbar{
+gap: 5px;
+font-size: 16px;
+    }
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.navbar a.active{
+    background-color: rgb(128, 126, 126);
+    border-radius: 3px;
+    font-size: 25px;
+    margin: 0 5px;
+}
+.It1{
+    padding-top: 65px;
+}
+.myitem{
+    height: 700px;
+    border-bottom: 3px solid black;
+
+}
