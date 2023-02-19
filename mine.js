@@ -10,7 +10,7 @@ window.addEventListener('scroll', function (){
    
 
 
-    for (const item of nav) {
+    for (let item of nav) {
 
     for(let i=0; i < nav.length - 1; i++){
     nav[i].classList.remove('active');
