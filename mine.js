@@ -44,13 +44,21 @@ window.addEventListener('scroll', function (){
     }
 } )
 
-// for (let i=0; i< nav.length; i++){
-//     window.addEventListener('scroll', function(){
-//     for( let item of nav){
-//         let elem = item.getBoundingClientRect();
-//         if (elem <= 700){
-//             item.classList.add('active')
+//     for (let i=0; i < nav.length; i++){
+//             nav[i].classList.remove('active');
+//            nav[index].classList.add('active');
+
+           
+//         for( let item of myItem){
+//             let elem = item.getBoundingClientRect();
+//             let el = window.scrollY;
+//             if( el > elem.height){
+//                 nav[index].classList.add('active')
+//             } else {
+//                 nav[index].classList.remove('active')
+//             }
+
+        
 //         }
+
 //     }
-//     })
-// }
